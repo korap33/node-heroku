@@ -2,7 +2,7 @@ const http = require('http');
 (async () => {
   const requestHandler = (request, response) => {  
     console.log(request.url)
-    response.end('Running')
+    response.end('Running v2')
   }
   const server = http.createServer(requestHandler)
 
